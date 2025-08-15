@@ -79,3 +79,8 @@ Test results (trading actions, return curves) are saved in the `trade_result/` d
 - Model checkpoints are saved periodically to resume training or run evaluations
 
 Feel free to explore the codebase to customize policies, environments, or adaptation strategies for specific trading scenarios!
+
+## Trading Results
+On the DJI dataset, the MAML strategy demonstrates strong adaptability. In the later trading period, its profit grows significantly, outperforming other strategies. The MAML - without - fine - tuning approach shows relatively unstable performance. The VPG and PPO strategies experience certain profit fluctuations, while the Buy - and - Hold strategy has larger volatility. Overall, the MAML strategy excels in the dynamic market environment of DJI.
+
+![alt text](image.png)
